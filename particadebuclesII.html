@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	var par=[]
+	var impar=[]
+
+	for (var i=1; i<=50; i++){
+		var numero= Math.floor((Math.random() * 100) + 1);
+		if(numero%2==0){
+		par.push(numero);
+
+		} else{
+		impar.push(numero);
+		}
+	}
+	alert(impar);
+	</script>
+</body>
+</html>
